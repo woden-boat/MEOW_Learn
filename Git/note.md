@@ -1,4 +1,4 @@
-##1.初始化当前文件夹，可以开始进行git操作
+## 1.初始化当前文件夹，可以开始进行git操作
 
 ```bash
 git init
@@ -70,6 +70,6 @@ git push -u origin master # 将master分支的历史推送origin，加入参数-
 
 ```bash
 ssh-key # 创建公私钥
-# 配置完成后在相关文件中找到公钥添加到gi
+# 配置完成后在相关文件中找到公钥添加到github
 ```
 
