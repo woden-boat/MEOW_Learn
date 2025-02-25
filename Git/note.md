@@ -55,3 +55,21 @@ git restore --staged "<file>"
 git commit --amend "<file>"
 ```
 
+## 10.将代码仓库推送至GitHub
+
+```bash
+git remote add origin url # 往当前文件夹添加远程仓库，仓库名为origin
+git remote set-url origin NEW_URL # 设置某个远程仓库的地址
+git remote remove origin # 删除远程仓库
+git push -u origin master # 将master分支的历史推送origin，加入参数-u则在推送的同时绑定master与origin
+```
+
+
+
+### 首次push时对公私钥的配置
+
+```bash
+ssh-key # 创建公私钥
+# 配置完成后在相关文件中找到公钥添加到gi
+```
+
