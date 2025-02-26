@@ -16,6 +16,7 @@
     </head>
 
     <body>
+        <p id = "top"></p>
         <!-- the information in there will be displayer
          in the web page -->
         <a href = "https://www.baidu.com">a hint</a> 
@@ -42,18 +43,71 @@
         <em>akesuihfdkaus</em><!-- emphasis --> 
         <strong>akwuid</strong> 
 
+        <hr> <!-- horizontal rule -->
+        <br> <!-- line break -->
+
         <ul> 
             <!-- unorder list -->
             <li> list item1 </li>
+            <li>
+                askduhkuh
+                <ol>    
+                    <li>aaa</li>
+                    <li>bbb</li>
+                </ol>
+            </li>                                                       
             <li> list item2 </li>
             <li> list item3 </li>
         </ul>
 
+        <a href = "#top"> 跳到顶部 </a>
+
         <ol>
             <!-- order list -->
-            <li> list item 1 </li>
+            <li> list item 1 <strong>a test</strong> </li>
             <li> list item 2 </li>
             <li> list item 3 </li>
-        </il>
+        </ol>
+
+    <form action="">
+        <input type="text"> <br><!-- "text" or "number" or "email"...，decide the type of input -->
+        <input type="email"> <br>
+        <input type="number"> <br>
+        <input type="range" max = 100 min = 1 step = 0.5> value <br>
+        <input type="file"> <br>
+
+        <input type="radio" value="male" name="gender"> 男 
+        <input type="radio" value="female" name="gender"> 女 
+        <input type="radio" value="unknow" name="gender"> 未知 <br>
+        <button>提交</button> <br>
+        
+        <!-- connect some conponents -->
+        <input type="radio" value="male" name="gender" id="gender_male"><label for="gender_male">男</label> <br>
+
+        <textarea name="可以在该文本框中随意输入" id=""></textarea>
+
+        <fieldset>
+            <!-- segment the form -->
+            <legend>个人信息</legend> <!-- caption -->
+
+            <input type="radio" value="male" name="gender"> 男 
+            <input type="radio" value="female" name="gender"> 女 
+            <input type="radio" value="unknow" name="gender"> 未知 <br>
+            <button>提交</button> <br>
+        </fieldset>
+
+        <select name="" id="">
+            <option value="">杭州</option>
+            <option value="">福州</option>
+            <optgroup label="随便">
+                <option value="">武汉</option>
+                <option value="">深圳</option>
+            </optgroup>
+        </select>
+
+        <br>
+        <input type="reset">
+    </form>
+
     </body>
 <html>
